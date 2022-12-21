@@ -1,10 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "./features/counter/counterSlice";
 import pokeDataReducer from "./features/PokeData/pokeDataSlice";
+import Store from "./store";
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
     pokeData: pokeDataReducer,
   },
 });
+
+export type RootState = ReturnType<typeof Store.getState>;

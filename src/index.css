@@ -1,0 +1,92 @@
+.pokedex-parent {
+  background-color: red;
+  width: 400px;
+  height: 600px;
+  border: 1px solid red;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  font-family: Optima;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.poke-title {
+  font-size: 16pt;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.sprite-search {
+  display: flex;
+  position: absolute;
+  top: 70px;
+  width: 400px;
+}
+
+.search {
+  height: 20px;
+  margin-top: 3px;
+  float: right;
+}
+
+.search-button {
+  background-color: white;
+  border: none;
+}
+
+.search-parent {
+  display: block;
+  width: 150px;
+  margin-left: 35px;
+}
+
+.sprites-parent {
+  top: 85px;
+  padding-left: 45px;
+  width: 150px;
+}
+
+.sprites-content {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.sprite-image {
+  height: 150px;
+  width: 150px;
+}
+
+.menu-item {
+  margin-right: 5px;
+}
+
+.select-view {
+  color: white !important;
+  background-color: black !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-button {
+  border: none;
+  border-radius: 5px;
+  height: 17px;
+  color: white;
+  background-color: green;
+}
+
+.attributes {
+  top: 290px;
+  position: absolute;
+  margin-left: 45px;
+}
+
+.title {
+  color: yellow;
+  margin-top: 12px;
+  font-size: 14pt;
+}
