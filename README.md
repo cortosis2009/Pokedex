@@ -13,3 +13,4 @@ Due to time constraints, unit & automation testing is not present in this applic
 # Other notes
 
 I did not use React 18 on this project due to issues around JSX elements not being allowed to have more than one child element. Through research, it seems this is a frequently complained about changed without obvious solutions at this time. I am totally unfamiliar with all things Pokemon, but created what looks like an old school Pokedex.
+g
