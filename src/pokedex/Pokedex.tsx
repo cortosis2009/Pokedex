@@ -21,7 +21,7 @@ const Pokedex = () => {
 
   const getData = () => {
     //retrieves api data
-    fetch(`https://pokeapi.co/api/v2/pokemon/${searchVal}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${searchVal.toLowerCase()}`)
       .then((res) => res.json())
       .then((json) => {
         dispatch(setPokeData(json));
